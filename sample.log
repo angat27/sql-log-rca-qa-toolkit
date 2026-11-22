@@ -1,0 +1,6 @@
+2026-11-22 09:14:02 INFO [auth-service] User login succeeded for account_id=1042
+2026-11-22 09:15:18 WARN [payment-gateway] Retrying downstream request attempt=2 timeout=1500ms
+2026-11-22 09:15:21 ERROR [payment-gateway] Transaction failed with HTTP 503 Service Unavailable tx_id=TX-88412
+2026-11-22 09:16:05 INFO [ledger-service] Batch balance check completed in 120ms
+2026-11-22 09:17:44 CRITICAL [settlement-worker] Database connection pool exhausted while processing batch=409
+2026-11-22 09:18:10 ERROR [api-gateway] Upstream timeout HTTP 504 on POST /api/v1/transfers
